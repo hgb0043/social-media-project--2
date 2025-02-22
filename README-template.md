@@ -20,15 +20,17 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Overview
 
+This is an HTML & CSS challenge involving the creation of a social media profile.
+
 ### The challenge
 
 Users should be able to:
 
-- See hover and focus states for all interactive elements on the page
+- Create a social media profile that also links several other social media pages.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Final Product Screenshot]()
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
