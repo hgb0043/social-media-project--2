@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: inter, arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 260px;
+    background-color: rgb(30, 30, 30);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 10px;
+}
+
+#profile-picture {
+    width: 65px;
+    height: 65pxs;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#name {
+    font-size: 20px;
+}
+
+#location {
+    font-size: 11px;
+    color:  hsl(75, 94%, 57%);
+    margin-top: -10px;   
+    margin-bottom: 10px;
+}
+
+#description {
+    font-size: 11px;
+    font-weight: 700;
+    width: 210px;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border: none;
+    width: 230px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#instagram-button {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.attribution {  
+    font-size: 11px; text-align: center; 
+    color: hsl(228, 45%, 44%); 
+
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+}
