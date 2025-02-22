@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 333.47px;
+    width: 345px;
     background-color: rgb(30, 30, 30);
 
     position: absolute;
@@ -19,10 +19,10 @@ body {
 }
 
 #profile-picture {
-    width: 90px;
-    height: 90pxs;
+    width: 92px;
+    height: 92px;
     border-radius: 50%;
-    margin-top: 25.65px;
+    margin-top: 32px;
 }
 
 #name {
@@ -34,14 +34,17 @@ body {
     font-size: 14.11px;
     color:  hsl(75, 94%, 57%);
     margin-top: -25px;   
-    margin-bottom: 12.83px;
+    margin-bottom: 5px;
 }
 
 #description {
-    font-size: 12.83px;
+    font-size: 12px;
     font-weight: 700;
     width: 75%;
     margin-bottom: 10px;
+    text-align: center;
+
+    color: rgb(175,175,175);
 }
 
 ul {
@@ -60,7 +63,7 @@ li {
  
     background-color: rgb(50, 50, 50);
     color: white;
-    height: 44.89px;
+    height: 42px;
     font-size: 12px;
     font-weight: bold;
     border-radius: 6.41px;
