@@ -30,35 +30,33 @@ Users should be able to:
 
 ### Screenshot
 
-![Final Product Screenshot]()
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Final Product Screenshot](assets/images/finalscreenshot.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://hgb0043.github.io/social-media-project--2/)
 
 ## My process
 
-### Built with
+- First, create the index.html file; this will serve as the sole and primary HTML file in the project.
 
+- Create a main.css file; this will serve as the primary css file. If you would like, create a reset.html file for better layout versatility.
+
+- Create the HTML structure. First, create a <main> element that will serve as the container for the profile.
+Create four <h>> elements embedded in div elements. These will correspond to the profile-picture, name, location, and description.
+
+- Create five links and give them the texts "Github", "FrontEnd Mentor", "linkedin", "Twitter", "Instagram", respectively.
+
+- Style the page with traditional CSS, using the styles given in the "style-guide.md" file.
+
+# Built With
+
+- VS Code
+- GitHub
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Desktop-first workflow
 
 ### What I learned
 
