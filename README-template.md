@@ -16,11 +16,9 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
-This is an HTML & CSS challenge involving the creation of a social media profile.
+This is an HTML & CSS challenge project involving the creation of a social media profile.
 
 ### The challenge
 
@@ -41,14 +39,14 @@ Users should be able to:
 
 - First, create the index.html file; this will serve as the sole and primary HTML file in the project.
 
-- Create a main.css file; this will serve as the primary css file. If you would like, create a reset.html file for better layout versatility.
+- Create a main.css file; this will serve as the primary css file. If you would like, create a reset.css file for better layout versatility. There are many different reset CSS templates available online. 
 
 - Create the HTML structure. First, create a <main> element that will serve as the container for the profile.
-Create four <h>> elements embedded in div elements. These will correspond to the profile-picture, name, location, and description.
+Create four <h> elements embedded in div elements. These will correspond to the profile-picture, name, location, and description.
 
-- Create five links and give them the texts "Github", "FrontEnd Mentor", "linkedin", "Twitter", "Instagram", respectively.
+- Create five links and give them the texts "Github", "Frontend Mentor", "Linkedin", "Twitter", "Instagram", respectively.
 
-- Style the page with traditional CSS, using the styles given in the "style-guide.md" file.
+- Style the page with traditional CSS to emulate the design as similarly as possible to the solution provided. Do this using the styles provided in the "style-guide.md" file. For the overall layout, I used a flexbox layout, but a grid layout will suffice for a static page.
 
 # Built With
 
@@ -60,51 +58,36 @@ Create four <h>> elements embedded in div elements. These will correspond to the
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this project, I learned that it is best to use various element tags throughout a flexbox layout instead of only using div element tags. For example, here is the opening tag for my 'container' element which embeds the entirety of the social media profile in the HTML document: 
 
-To see how you can add code snippets, see below:
+<main id="container">
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+This principle can also be applied to other parts of an HTML document. For example, here is the code for my attribution at the bottom of my HTML solution: 
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+<footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/hgb0043">Hayes Blackstone</a>.
+  </footer>
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+  These tags, although they are not different to the <div> tag aesthetically, produce code that is much easier to read and provide functional advantages like improved accesibility and better search engine optimization. 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+An area I want to continue focusing on is mastering flexbox, which has been very tricky to learn so far but is  invaluable in web design.
+This is my main hurdle towards mastering simple page design using HTML & CSS.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [| YouTube Video | Full HTML & CSS Full Course - Beginner to Pro ](https://www.youtube.com/watch?v=G3e-cpL7ofc&t=21071s) - I will have to link this in every project I do that has a focus on HTML & CSS because it has been crucial to my development in the two languages. Every beginner frontend developer would greatly benefit by watching and completing the examples and main project in the video. 
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [| YouTube Video | Git, GitHub, & GitHub Desktop for beginners](https://www.youtube.com/watch?v=8Dd7KRpKeaE&t=536s) - This video was recommended when learning the basics in Frontend Mentor but I want to share it just in case anyone missed it. It has been very helpful at teaching me to use GitHub, Github Desktop, and VSCode harmoniously which has been a challenge for me so far in my young journey as a frontend developer. 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@hgb0043](https://www.frontendmentor.io/profile/hgb0043)
+- Twitter - [@hgblackstone](https://www.twitter.com/hgblackstone)
+- LinkedIn - [Hayes Blackstone] (https://www.linkedin.com/in/hayes-blackstone-a74182352/)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I would like to offer my genuine thanks to Frontend Mentor user @Backpachamame for his comment on my original Frontend Mentor solution post. You offered specific and thorough feedback that did not go unnoticed. It is because of users like you that Frontend Mentor is such a successful and collaborative platform and I aspire to help others like you have helped me on this project. 
